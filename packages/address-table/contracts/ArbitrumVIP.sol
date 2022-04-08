@@ -6,7 +6,6 @@ import "hardhat/console.sol";
 
 
 contract ArbitrumVIP {
-  string greeting;
   mapping(address => uint) arbitrumVIPPoints; // Maps address to vip points. More points you have, cooler you are.
   
   ArbAddressTable arbAddressTable; 
